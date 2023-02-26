@@ -879,6 +879,9 @@ color: #2E2F42;
     cursor: pointer;
     transition: background-color 250ms var(--Timing-funk);
 }
+.subscribe-btn:is(:hover, :focus) {
+    background-color: var(--active-color);
+  }
 .footer-send-icon {
     fill: var(--White-color);
 }
